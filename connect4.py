@@ -21,7 +21,7 @@ board = [[0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0]]
 
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("李浩平的Connect4游戏")
+pygame.display.set_caption("Connect4游戏")
 clock = pygame.time.Clock()
 
 def AAfilledRoundedRect(surface,rect,color,radius=0.1):
